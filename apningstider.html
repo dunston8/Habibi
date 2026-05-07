@@ -13,7 +13,7 @@
 
 <header class="header" id="site-header">
   <div class="container header-inner">
-    <a href="index.html" class="brand" aria-label="Yalla Habibi — hjem">
+    <a href="index.html" class="brand" aria-label="Yalla Habibi, hjem">
       <img src="project/assets/logo.png" alt="Yalla Habibi" />
     </a>
     <nav class="nav" aria-label="Hovednavigasjon">
@@ -74,11 +74,11 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <a href="index.html" class="brand" aria-label="Yalla Habibi — hjem">
+        <a href="index.html" class="brand" aria-label="Yalla Habibi, hjem">
           <img src="project/assets/logo.png" alt="Yalla Habibi" />
         </a>
         <p class="footer-blurb">
-          En koselig restaurant i Oslo. Shawarma, pizza, mezze og barnemeny — laget for hele familien.
+          En koselig restaurant i Oslo. Shawarma, pizza, mezze og barnemeny laget for hele familien.
         </p>
       </div>
       <div>
@@ -144,7 +144,7 @@
     const row = document.createElement('div');
     row.className = 'hours-row' + (i === dayIdx ? ' today' : '');
     row.innerHTML =
-      '<div class="day">' + h.day + (i === dayIdx ? ' — i dag' : '') + '</div>' +
+      '<div class="day">' + h.day + (i === dayIdx ? ' · i dag' : '') + '</div>' +
       '<div class="time">' + h.time + '</div>';
     list.appendChild(row);
   });
