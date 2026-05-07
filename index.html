@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yalla Habibi · Restaurant i Oslo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body id="top">
+
+<header class="header" id="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="Yalla Habibi — hjem">
+      <img src="project/assets/logo.png" alt="Yalla Habibi" />
+    </a>
+    <nav class="nav" aria-label="Hovednavigasjon">
+      <a href="index.html" aria-current="page">Hjem</a>
+      <a href="meny.html">Meny</a>
+      <a href="apningstider.html">Åpningstider</a>
+      <a href="finn-oss.html">Finn oss</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <a class="btn btn-primary header-cta"
+         href="https://www.foodora.no/restaurant/mp6m/yalla-habibi-restaurant?srsltid=AfmBOorG6y4X6SyN6G6Tgz5r5SYo0ODJYcHjyfcQnAXhymti8p9MGgcm"
+         target="_blank" rel="noreferrer">
+        Bestill nå <span class="arrow">→</span>
+      </a>
+      <button class="menu-btn" id="menu-toggle" aria-label="Meny"><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html" aria-current="page">Hjem</a>
+    <a href="meny.html">Meny</a>
+    <a href="apningstider.html">Åpningstider</a>
+    <a href="finn-oss.html">Finn oss</a>
+    <a class="btn btn-primary btn-lg"
+       href="https://www.foodora.no/restaurant/mp6m/yalla-habibi-restaurant?srsltid=AfmBOorG6y4X6SyN6G6Tgz5r5SYo0ODJYcHjyfcQnAXhymti8p9MGgcm"
+       target="_blank" rel="noreferrer">Bestill nå <span class="arrow">→</span></a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1 class="reveal">
+          Velkommen til <span class="accent">Yalla Habibi</span>
+        </h1>
+        <p class="hero-sub reveal delay-1">
+          Varme smaker, god mat og en hyggelig plass å samles. Shawarma, pizza
+          og arabiske retter laget for å deles.
+        </p>
+        <div class="hero-ctas reveal delay-2">
+          <a class="btn btn-primary btn-lg"
+             href="https://www.foodora.no/restaurant/mp6m/yalla-habibi-restaurant?srsltid=AfmBOorG6y4X6SyN6G6Tgz5r5SYo0ODJYcHjyfcQnAXhymti8p9MGgcm"
+             target="_blank" rel="noreferrer">
+            Bestill nå <span class="arrow">→</span>
+          </a>
+          <a class="btn btn-ghost btn-lg" href="meny.html">Se menyen</a>
+        </div>
+      </div>
+      <div class="hero-logo reveal delay-1" aria-hidden="true">
+        <img src="project/assets/logo.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO + HIGHLIGHTS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow reveal">En smak av Levanten</span>
+          <h2 style="margin-top:14px;" class="reveal delay-1">
+            Hjemmelaget mat,<br />servert med varme.
+          </h2>
+        </div>
+        <p class="lead reveal delay-2">
+          Vi lager rettene fra bunnen av hver dag. Kom innom for en rolig middag,
+          eller få favorittene levert hjem.
+        </p>
+      </div>
+
+      <div class="highlights">
+        <article class="highlight reveal delay-1">
+          <div class="highlight-photo">
+            <img src="project/assets/shawarma.png" alt="Shawarma" />
+          </div>
+          <div class="highlight-body">
+            <h3>Shawarma</h3>
+            <p>Saftig kylling eller okse, syltede agurker og hvitløkssaus.</p>
+          </div>
+        </article>
+        <article class="highlight reveal delay-2">
+          <div class="highlight-photo">
+            <img src="project/assets/pizza.png" alt="Pizza" />
+          </div>
+          <div class="highlight-body">
+            <h3>Steinovnspizza</h3>
+            <p>Tynn bunn, modne tomater og friske urter — laget i steinovn.</p>
+          </div>
+        </article>
+        <article class="highlight reveal delay-3">
+          <div class="highlight-photo">
+            <img src="project/assets/muhammara.png" alt="Mezze" />
+          </div>
+          <div class="highlight-body">
+            <h3>Mezze å dele</h3>
+            <p>Muhammara, hummus og kibbeh — små retter satt midt på bordet.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="reveal delay-2" style="margin-top:32px;display:flex;justify-content:center;">
+        <a class="btn btn-ghost" href="meny.html">Se hele menyen <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIKTOK STRIP -->
+  <section class="section section-tight" style="padding-top:0;">
+    <div class="container" style="max-width:760px;">
+      <a class="tk-strip reveal"
+         href="https://www.tiktok.com/@yalla.habibi.restaurant"
+         target="_blank" rel="noreferrer">
+        <span class="tk-icon">✦</span>
+        <div class="tk-body">
+          <strong>Tilbud på TikTok</strong>
+          <span>@yalla.habibi.restaurant — ukens tilbud først der</span>
+        </div>
+        <span class="tk-arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ORDER CTA -->
+  <section class="section" style="padding-top:24px;">
+    <div class="container">
+      <div class="reveal">
+        <div class="order">
+          <div class="order-deco" aria-hidden="true"></div>
+          <div class="order-inner">
+            <span class="eyebrow">Bestill hjem · Foodora</span>
+            <h2 style="margin-top:14px;">Sulten? <em>Vi leverer.</em></h2>
+            <p class="lead">
+              Få favorittene dine rett hjem med Foodora. Bestilling tar under et
+              minutt, og kjøkkenet vårt setter i gang så snart ordren tikker inn.
+            </p>
+            <div class="order-ctas">
+              <a class="btn btn-gold btn-lg"
+                 href="https://www.foodora.no/restaurant/mp6m/yalla-habibi-restaurant?srsltid=AfmBOorG6y4X6SyN6G6Tgz5r5SYo0ODJYcHjyfcQnAXhymti8p9MGgcm"
+                 target="_blank" rel="noreferrer">
+                Bestill på Foodora <span class="arrow" style="background:rgba(0,0,0,.12);">→</span>
+              </a>
+              <a class="btn btn-ghost btn-lg" href="finn-oss.html"
+                 style="color:var(--bg);border-color:rgba(251,246,238,.22);">
+                Eller kom innom oss
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION TEASER -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow reveal">Finn oss</span>
+          <h2 style="margin-top:14px;" class="reveal delay-1">Et stykke Oslo med levantinske smaker.</h2>
+        </div>
+      </div>
+
+      <a class="loc-teaser reveal" href="finn-oss.html" aria-label="Se på kart og finn oss">
+        <div class="map-canvas">
+          <svg viewBox="0 0 600 380" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <g stroke="rgba(42,24,16,.10)" stroke-width="22" fill="none" stroke-linecap="round">
+              <path d="M -20 200 L 620 180" />
+              <path d="M 280 -20 L 320 400" />
+            </g>
+            <g stroke="rgba(42,24,16,.06)" stroke-width="10" fill="none" stroke-linecap="round">
+              <path d="M -20 80 L 620 60" />
+              <path d="M -20 320 L 620 340" />
+              <path d="M 100 -20 L 80 400" />
+              <path d="M 480 -20 L 520 400" />
+            </g>
+            <g fill="rgba(201,154,63,.10)">
+              <rect x="120" y="100" width="140" height="70" rx="6" />
+              <rect x="340" y="90" width="120" height="80" rx="6" />
+              <rect x="120" y="220" width="160" height="80" rx="6" />
+              <rect x="340" y="220" width="140" height="80" rx="6" />
+            </g>
+            <circle cx="100" cy="340" r="42" fill="rgba(107,122,58,.18)" />
+          </svg>
+          <div class="map-pin">
+            <div class="head"><span>✦</span></div>
+            <div class="pulse"></div>
+          </div>
+        </div>
+        <div class="loc-teaser-body">
+          <h3>Trondheimsveien 14</h3>
+          <div class="addr">
+            <small>Oslo</small>
+            0560 Oslo · Norge
+          </div>
+          <span class="btn btn-ghost">Se på kart <span class="arrow">→</span></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand" aria-label="Yalla Habibi — hjem">
+          <img src="project/assets/logo.png" alt="Yalla Habibi" />
+        </a>
+        <p class="footer-blurb">
+          En koselig restaurant i Oslo. Shawarma, pizza, mezze og barnemeny — laget for hele familien.
+        </p>
+      </div>
+      <div>
+        <h4>Sider</h4>
+        <ul>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="meny.html">Meny</a></li>
+          <li><a href="apningstider.html">Åpningstider</a></li>
+          <li><a href="finn-oss.html">Finn oss</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Besøk oss</h4>
+        <ul>
+          <li>Trondheimsveien 14</li>
+          <li>0560 Oslo</li>
+          <li><a href="https://maps.google.com/?q=Trondheimsveien+14,+Oslo" target="_blank" rel="noreferrer">Vis på kart →</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Lenker</h4>
+        <ul>
+          <li><a href="https://www.foodora.no/restaurant/mp6m/yalla-habibi-restaurant?srsltid=AfmBOorG6y4X6SyN6G6Tgz5r5SYo0ODJYcHjyfcQnAXhymti8p9MGgcm" target="_blank" rel="noreferrer">Bestill på Foodora →</a></li>
+          <li><a href="https://www.tiktok.com/@yalla.habibi.restaurant" target="_blank" rel="noreferrer">Følg på TikTok →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Yalla Habibi</span>
+      <span>Trondheimsveien 14, Oslo</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>

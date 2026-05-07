@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Meny · Yalla Habibi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header class="header" id="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="Yalla Habibi — hjem">
+      <img src="project/assets/logo.png" alt="Yalla Habibi" />
+    </a>
+    <nav class="nav" aria-label="Hovednavigasjon">
+      <a href="index.html">Hjem</a>
+      <a href="meny.html" aria-current="page">Meny</a>
+      <a href="apningstider.html">Åpningstider</a>
+      <a href="finn-oss.html">Finn oss</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <a class="btn btn-primary header-cta"
+         href="https://www.foodora.no/restaurant/mp6m/yalla-habibi-restaurant?srsltid=AfmBOorG6y4X6SyN6G6Tgz5r5SYo0ODJYcHjyfcQnAXhymti8p9MGgcm"
+         target="_blank" rel="noreferrer">
+        Bestill nå <span class="arrow">→</span>
+      </a>
+      <button class="menu-btn" id="menu-toggle" aria-label="Meny"><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Hjem</a>
+    <a href="meny.html" aria-current="page">Meny</a>
+    <a href="apningstider.html">Åpningstider</a>
+    <a href="finn-oss.html">Finn oss</a>
+    <a class="btn btn-primary btn-lg"
+       href="https://www.foodora.no/restaurant/mp6m/yalla-habibi-restaurant?srsltid=AfmBOorG6y4X6SyN6G6Tgz5r5SYo0ODJYcHjyfcQnAXhymti8p9MGgcm"
+       target="_blank" rel="noreferrer">Bestill nå <span class="arrow">→</span></a>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow reveal">Vår meny</span>
+      <h1 class="reveal delay-1">
+        Shawarma, pizza og <em style="color:var(--burgundy);">arabiske smaker</em> laget for å deles.
+      </h1>
+      <p class="lead reveal delay-2">
+        Vi lager rettene fra bunnen av hver dag. Enkelt, ærlig og godt — slik mat skal smake.
+        Her er noen av favorittene fra menyen.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:32px;">
+    <div class="container">
+
+      <div class="menu-grid">
+        <article class="dish reveal delay-1">
+          <div class="dish-photo">
+            <img src="project/assets/shawarma.png" alt="Shawarma-tallerken" />
+            <span class="dish-tag">Husets favoritt</span>
+          </div>
+          <div class="dish-body">
+            <h3>Shawarma-tallerken</h3>
+            <p>Saftig kylling- eller oksekjøtt med pommes, syltede agurker og hvitløkssaus.</p>
+          </div>
+          <div class="dish-foot">
+            <span class="dish-price">fra 169 kr</span>
+            <span class="dish-cat">Shawarma</span>
+          </div>
+        </article>
+
+        <article class="dish reveal delay-2">
+          <div class="dish-photo">
+            <img src="project/assets/pizza.png" alt="Habibi Pizza" />
+            <span class="dish-tag">Steinovn</span>
+          </div>
+          <div class="dish-body">
+            <h3>Habibi Pizza</h3>
+            <p>Tynn bunn, modne tomater, oliven og friske urter, laget i steinovn.</p>
+          </div>
+          <div class="dish-foot">
+            <span class="dish-price">fra 159 kr</span>
+            <span class="dish-cat">Pizza</span>
+          </div>
+        </article>
+
+        <article class="dish reveal delay-3">
+          <div class="dish-photo">
+            <img src="project/assets/mixgrill.png" alt="Mixgrill" />
+            <span class="dish-tag">Klassiker</span>
+          </div>
+          <div class="dish-body">
+            <h3>Mixgrill</h3>
+            <p>Lammespyd, kyllingspyd og kebab servert med ris, brød og grønt.</p>
+          </div>
+          <div class="dish-foot">
+            <span class="dish-price">fra 245 kr</span>
+            <span class="dish-cat">Arabisk mat</span>
+          </div>
+        </article>
+
+        <article class="dish reveal delay-4">
+          <div class="dish-photo">
+            <img src="project/assets/muhammara.png" alt="Mezze og smårett" />
+            <span class="dish-tag">Til å dele</span>
+          </div>
+          <div class="dish-body">
+            <h3>Mezze &amp; smårett</h3>
+            <p>Muhammara, hummus og kibbeh, våre små retter satt i sentrum av bordet.</p>
+          </div>
+          <div class="dish-foot">
+            <span class="dish-price">fra 89 kr</span>
+            <span class="dish-cat">Mezze</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="menu-cats reveal delay-2">
+        <span class="menu-cat-chip">Shawarma</span>
+        <span class="menu-cat-chip">Pizza</span>
+        <span class="menu-cat-chip">Barnemeny</span>
+        <span class="menu-cat-chip">Mezze</span>
+        <span class="menu-cat-chip">Mixgrill</span>
+        <span class="menu-cat-chip">Falafel</span>
+        <span class="menu-cat-chip">Vegetar</span>
+        <span class="menu-cat-chip">Dessert</span>
+      </div>
+
+      <div class="reveal delay-2" style="margin-top:48px;display:flex;justify-content:center;">
+        <a class="btn btn-primary btn-lg"
+           href="https://www.foodora.no/restaurant/mp6m/yalla-habibi-restaurant?srsltid=AfmBOorG6y4X6SyN6G6Tgz5r5SYo0ODJYcHjyfcQnAXhymti8p9MGgcm"
+           target="_blank" rel="noreferrer">
+          Bestill på Foodora <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand" aria-label="Yalla Habibi — hjem">
+          <img src="project/assets/logo.png" alt="Yalla Habibi" />
+        </a>
+        <p class="footer-blurb">
+          En koselig restaurant i Oslo. Shawarma, pizza, mezze og barnemeny — laget for hele familien.
+        </p>
+      </div>
+      <div>
+        <h4>Sider</h4>
+        <ul>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="meny.html">Meny</a></li>
+          <li><a href="apningstider.html">Åpningstider</a></li>
+          <li><a href="finn-oss.html">Finn oss</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Besøk oss</h4>
+        <ul>
+          <li>Trondheimsveien 14</li>
+          <li>0560 Oslo</li>
+          <li><a href="https://maps.google.com/?q=Trondheimsveien+14,+Oslo" target="_blank" rel="noreferrer">Vis på kart →</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Lenker</h4>
+        <ul>
+          <li><a href="https://www.foodora.no/restaurant/mp6m/yalla-habibi-restaurant?srsltid=AfmBOorG6y4X6SyN6G6Tgz5r5SYo0ODJYcHjyfcQnAXhymti8p9MGgcm" target="_blank" rel="noreferrer">Bestill på Foodora →</a></li>
+          <li><a href="https://www.tiktok.com/@yalla.habibi.restaurant" target="_blank" rel="noreferrer">Følg på TikTok →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Yalla Habibi</span>
+      <span>Trondheimsveien 14, Oslo</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>
